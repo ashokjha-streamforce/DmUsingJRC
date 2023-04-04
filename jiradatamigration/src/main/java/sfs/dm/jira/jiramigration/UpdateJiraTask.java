@@ -1,8 +1,23 @@
+/*
+ * Licensed to the Streamforce Solution(SFS) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The SFS licenses this file to You under the SFS License, Version 2.0
+ * (the "License"); 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * @author Ashok Kumar Jha (ashok.jha@streamforcesolutions.com)
+ */
 package sfs.dm.jira.jiramigration;
 
 import java.util.HashMap;
+import java.util.Properties;
 import java.net.URI;
 import java.net.URISyntaxException;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
@@ -18,6 +33,7 @@ import org.slf4j.LoggerFactory;
 import com.atlassian.jira.rest.client.api.JiraRestClient;
 import com.atlassian.jira.rest.client.api.RestClientException;
 import com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClientFactory;
+import com.atlassian.jira.rest.client.api.domain.Issue;
 import com.atlassian.jira.rest.client.api.domain.input.FieldInput;
 import com.atlassian.jira.rest.client.api.domain.input.IssueInput;
 import com.atlassian.jira.rest.client.api.domain.input.IssueInputBuilder;
@@ -26,35 +42,42 @@ import com.atlassian.jira.rest.client.api.domain.input.IssueInputBuilder;
 
 /**
  * UpdateJiraTask!
- *
+ * 
+ * @author ASHOK KR JHA (ashok.jha@streamforcesolutions.com)
  */
 public class UpdateJiraTask {
 	final static Logger logger = LoggerFactory.getLogger(UpdateJiraTask.class);
 	private static HashMap<String, String> taskMap = new HashMap<String, String>();
+	private static Properties appProps = new Properties();
 
 	public static void main(String[] args) {
-		UpdateJiraTask.processCSV();
-		System.out.println(taskMap);
-		UpdateJiraTask.updateEpicLink();
+		try {
+			appProps.load(UpdateJiraTask.class.getClassLoader().getResourceAsStream("jiradatamig.properties"));
+			UpdateJiraTask.testConnectJira();
+			UpdateJiraTask.processCSV();
+			logger.debug("Task to Update: " + taskMap);
+			System.out.println(taskMap);
+			UpdateJiraTask.updateEpicLink();
+		} catch (IOException e) {
+			logger.error("", e);
+		}
 
 	}
 
 	private static void updateEpicLink() {
-
-		URI jiraServerUri;
 		try {
-			jiraServerUri = new URI("https://enable.lrn.com/");
-			final JiraRestClient restClient = new AsynchronousJiraRestClientFactory()
-					.createWithBasicHttpAuthentication(jiraServerUri, "ashok.jha", "Mr1ty0muksh1yamamr1tat");
+			final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
+					new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
+					appProps.getProperty("KEY"));
 			try {
 				taskMap.forEach((issueKey, epicVal) -> {
 					IssueInputBuilder builder = new IssueInputBuilder();
-					builder.setFieldInput(new FieldInput("customfield_10008", epicVal));
+					builder.setFieldInput(new FieldInput(appProps.getProperty("EPIC_LINK"), epicVal));
 					IssueInput epic = builder.build();
 					try {
 						restClient.getIssueClient().updateIssue(issueKey, epic).claim();
 					} catch (RestClientException rex) {
-						String err = String.format("Epic Link %s => %s failed : ",issueKey,epicVal);
+						String err = String.format("Epic Link %s => %s failed : ", issueKey, epicVal);
 						System.out.println(err);
 						logger.error(err, rex);
 					}
@@ -78,72 +101,39 @@ public class UpdateJiraTask {
 		try {
 			@SuppressWarnings("deprecation")
 			CSVFormat csvFormat = CSVFormat.DEFAULT.withFirstRecordAsHeader().withIgnoreHeaderCase();
-			Path path = Paths.get(csvFileName);
+			Path path = Paths.get(appProps.getProperty("DATAFILE"));
 			CSVParser csvParser = CSVParser.parse(path, StandardCharsets.UTF_8, csvFormat);
 			for (CSVRecord csvRecord : csvParser) {
 				String issueKey = csvRecord.get("Issue key");
 				String epicLink = csvRecord.get("Custom field (Epic Link)");
-				// System.out.println( "issueKey=" + issueKey + " , epicLink" + epicLink);
 				if (StringUtils.isNotBlank(epicLink)) {
 					taskMap.put(issueKey.trim(), epicLink.trim());
 				}
 			}
 			csvParser.close();
 		} catch (IOException ioe) {
-			logger.error(csvFileName+" IOExp ",ioe);
+			logger.error(csvFileName + " IOExp ", ioe);
 		}
 
 	}
 
-	@SuppressWarnings("unused")
-	private static void connectToJira() {
-
-		URI jiraServerUri;
+	private static void testConnectJira() {
 		try {
-			jiraServerUri = new URI("https://enable.lrn.com/");
-			final JiraRestClient restClient = new AsynchronousJiraRestClientFactory()
-					.createWithBasicHttpAuthentication(jiraServerUri, "ashok.jha", "Mr1ty0muksh1yamamr1tat");
+			final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
+					new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
+					appProps.getProperty("KEY"));
 			try {
-				/*
-				 * System.out.println(restClient.toString()); IssueInputBuilder iib = new
-				 * IssueInputBuilder(); iib.setProjectKey("TCL");
-				 * iib.setSummary("SFS Linking Story 12"); iib.setIssueTypeId(7L);
-				 * iib.setDescription(
-				 * "SFS Linking SFS Linking Story T2 To Check Whether >inking with Ep;ic is working or not ust rest client"
-				 * ); iib.setPriorityId(10304L); iib.setAssigneeName("Praveen.Gadde");
-				 * iib.setReporterName("Ashok.Jha");
-				 * 
-				 * 
-				 * iib.setFieldInput(new FieldInput("customfield_10008", "TCL-30000"));
-				 * IssueInput issue = iib.build(); BasicIssue issueObj =
-				 * restClient.getIssueClient().createIssue(issue).claim();
-				 * System.out.println("Created Issue " + issueObj.getKey() +
-				 * " created successfully"); String issueKey = issueObj.getKey();
-				 */
-				String issueKey = "TCL-30067";
-				IssueInputBuilder builder = new IssueInputBuilder();
-				builder.setFieldInput(new FieldInput("customfield_10008", "TCL-30050"));
-				IssueInput issueInput = builder.build();
-				restClient.getIssueClient().updateIssue(issueKey, issueInput).claim();
-				System.out.println(" Epic Link successfull");
-				System.out.println(issueKey);
-
-				// issueObj = restClient.getIssueClient().updateIssue(issue).claim();
-
-				// issueObj = restClient.getIssueClient().createIssue(issue).claim();
-				// System.out.println(issue);
-				// System.out.println("Created Issue " + issueObj.getKey() + " created
-				// successfully");
-
+				Issue issueObj = restClient.getIssueClient().getIssue("TCL-30000").claim();
+				System.out.println("Issue " + issueObj);
 			} finally {
 				try {
 					restClient.close();
 				} catch (IOException ioe) {
-					logger.error("IO  ",ioe);
+					logger.error("IO  ", ioe);
 				}
 			}
 		} catch (URISyntaxException urle) {
-			logger.error("URL Syntax  ",urle);
+			logger.error("URL Syntax  ", urle);
 		}
 
 	}
