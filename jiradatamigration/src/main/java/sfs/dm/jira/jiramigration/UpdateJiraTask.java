@@ -13,6 +13,9 @@
  */
 package sfs.dm.jira.jiramigration;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -24,12 +27,14 @@ import java.util.Properties;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.atlassian.jira.rest.client.api.JiraRestClient;
 import com.atlassian.jira.rest.client.api.RestClientException;
+import com.atlassian.jira.rest.client.api.domain.Attachment;
 import com.atlassian.jira.rest.client.api.domain.Issue;
 import com.atlassian.jira.rest.client.api.domain.input.FieldInput;
 import com.atlassian.jira.rest.client.api.domain.input.IssueInput;
@@ -123,9 +128,48 @@ public class UpdateJiraTask {
             final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
                     new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
                     appProps.getProperty("KEY"));
+            String fileName = null;
             try {
                 Issue issueObj = restClient.getIssueClient().getIssue("TCL-30000").claim();
+                Iterable<Attachment> attachments = issueObj.getAttachments();
+                attachments.forEach(attached -> {
+                    System.out.println(attached);
+                    System.out.println(attached.getFilename());
+                    System.out.println(attached.getContentUri());
+                    System.out.println(attached.getThumbnailUri());
+                    try {
+                        FileUtils.copyURLToFile(attached.getContentUri().toURL(), new File(attached.getFilename()),
+                                100000, 10000);
+
+                    } catch (IOException exp) {
+                        // TODO Auto-generated catch block
+                        exp.printStackTrace();
+                    }
+                    try {
+                        String issueKey = "TCL-30112";
+                        Issue issueObj1 = restClient.getIssueClient().getIssue("TCL-30112").claim();
+                        restClient.getIssueClient()
+                                .addAttachment(issueObj1.getAttachmentsUri(),
+                                        new FileInputStream(new File(attached.getFilename())), attached.getFilename())
+                                .claim();
+                    } catch (RestClientException rex) {
+                        // System.out.println(err);
+                        logger.error("Err :", rex);
+                    } catch (FileNotFoundException exp) {
+                        // TODO Auto-generated catch block
+                        exp.printStackTrace();
+                    }
+
+                });
                 System.out.println("Issue " + issueObj);
+
+                IssueInputBuilder builder = new IssueInputBuilder();
+                // File fileToUpload = new File(path);
+                // FileBody fileBody = new FileBody(fileToUpload, fileComment,
+                // "application/octet-stream", "UTF-8");
+                // builder.setFieldInput(new FieldInput(appProps.getProperty("ATTACHMENT"),
+                // epicVal));
+                // IssueInput epic = builder.build();
             } finally {
                 try {
                     restClient.close();
@@ -138,5 +182,30 @@ public class UpdateJiraTask {
         }
 
     }
+
+    /*
+     * public void addAttachmentToJira(String filename, String jiraissue) throws
+     * Exception { HttpHeaders headers = new HttpHeaders();
+     * headers.setContentType(MediaType.MULTIPART_FORM_DATA);
+     * headers.setBasicAuth(jiraUser, jiraPwd); headers.set("X-Atlassian-Token",
+     * "no-check"); File sampleFile = new File(filename);
+     * 
+     * MultiValueMap<String, String> fileMap = new LinkedMultiValueMap<>();
+     * ContentDisposition contentDisposition =
+     * ContentDisposition.builder("form-data").name("file")
+     * .filename(sampleFile.getName()).build();
+     * fileMap.add(HttpHeaders.CONTENT_DISPOSITION, contentDisposition.toString());
+     * byte[] fileContent = Files.readAllBytes(sampleFile.toPath());
+     * HttpEntity<byte[]> fileEntity = new HttpEntity<>(fileContent, fileMap);
+     * MultiValueMap<String, Object> body = new LinkedMultiValueMap<>();
+     * body.add("file", fileEntity);
+     * 
+     * HttpEntity<MultiValueMap<String, Object>> requestEntity = new
+     * HttpEntity<>(body, headers); try { String addAttachUrl =
+     * "https://yourjirainstance.com/rest/api/2/issue/" + issueId + "/attachments";
+     * ResponseEntity<String> response = restTemplate.exchange(addAttachUrl,
+     * HttpMethod.POST, requestEntity, String.class); } catch
+     * (HttpClientErrorException e) { e.printStackTrace(); } }
+     */
 
 }
