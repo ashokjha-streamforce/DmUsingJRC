@@ -1,0 +1,490 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Associated),Outward issue link (Associated),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Inward issue link (Bug to Story),Outward issue link (Bug to Story),Inward issue link (Bug),Inward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Outward issue link (Bug),Inward issue link (Cloners),Outward issue link (Cloners),Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field ( Salesforce Ticket Number(s) ),Custom field (AAPB Environment),Custom field (ARM Roadmap),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria (Media) 1),Custom field (Acceptance Criteria (Media) 2),Custom field (Acceptance Test Finish),Custom field (Acceptance Test Planned Hours),Custom field (Acceptance Test Responsible),Custom field (Acceptance Test Start),Custom field (Activity),Custom field (Actual Delivery Date),Custom field (Actual Release Month),Custom field (Actual Resolution Date),Custom field (Actual Result),Custom field (Actual Spend ($)),Custom field (Actual Start Date),Custom field (Actual Time),Custom field (Acutal Date),Custom field (Additional Content Requirements),Custom field (Additional Note),Custom field (Affected Function),Custom field (Affects Function),Custom field (Affects Release),Custom field (Analysis Completed),Custom field (Analysis Started),Custom field (Analyst),Custom field (Analytics assignee),Custom field (Analytics checklist attached),Custom field (Application / Environment),Custom field (Application Name),Custom field (Application Owner),Custom field (Application Server),Custom field (Approved),Custom field (Architect Reviewed),Custom field (Area),Custom field (Area Path),Custom field (As a),Custom field (Asset),Custom field (Asset Insight Application Name),Custom field (Asset Insight ID),Custom field (Assets Obtained),Custom field (Assigned to Function),Custom field (Assisted Operation Finish),Custom field (Assisted Operation Planned Hours),Custom field (Assisted Operation Responsible),Custom field (Assisted Operation Start),Custom field (Attack Exposure),Custom field (BA),Custom field (BCAL Rating),Custom field (BF Approved for Release by),Custom field (BU Architect),Custom field (BVT Comment),Custom field (BVT Completed?),Custom field (BVT Required?),Custom field (Benefiting BU),Custom field (Beta Testing Information),Custom field (Billable/Non Billable),Custom field (Billing Justification),Custom field (Billing Type),Custom field (Blocker),Custom field (Blocker?),Custom field (Blue Chip Project?),Custom field (Browser),Custom field (Bug Type),Custom field (Build Type),Custom field (Business / UAT Contact),Custom field (Business Case),Custom field (Business Case (required for Refinitiv)),Custom field (Business Criticality),Custom field (Business Criticality Description),Custom field (Business Description),Custom field (Business Justification),Custom field (Business Priority),Custom field (Business Rationale),Custom field (Business UAT candidate),Custom field (Business Unit),Custom field (Business Unit),Custom field (Business Unit Contact),Custom field (Business Unit Impacted),Custom field (Business Value),Custom field (Business Value (Media)),Custom field (CMDB updates),Custom field (CR Ticket),Custom field (CR Type),Custom field (Campaign Page Requirements),Custom field (Campaign Type),Custom field (Capability),Custom field (Capability OSP),Custom field (Card Status),Custom field (Category),Custom field (Change Release Date),Custom field (Change Type),Custom field (Client),Custom field (Client Contact),Custom field (Client Name),Custom field (Client Priority),Custom field (Client Release),Custom field (Client Review Date),Custom field (Closed Date),Custom field (Closure),Custom field (Closure Reason),Custom field (Co-Assignee),Custom field (Code Review),Custom field (Code Word),Custom field (Comments),Custom field (Committed Date),Custom field (Communication Type),Custom field (Company Name),Custom field (Components Hack),Custom field (Connection Used),Custom field (Contacts),Custom field (Contacts),Custom field (Content Delivery),Custom field (Content Requirement),Custom field (Content Set),Custom field (Context),Custom field (Contractually Required),Custom field (Country),Custom field (Counts Towards Velocity),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Course Name),Custom field (Coverage Category),Custom field (Creative Category),Custom field (Creative Dimensions),Custom field (Creative File Type),Custom field (Critical),Custom field (Critical Path),Custom field (Current Status),Custom field (Curve Type),Custom field (Customer Case-Date),Custom field (Customer Email),Custom field (Customer Name),Custom field (Customer Phone),Custom field (Customer Reference),Custom field (Customer Reported Issue),Custom field (Customer Status),Custom field (Customer Ticket),Custom field (Customer/Operations Case #),Custom field (DANTE Business Value),Custom field (DANTE Story Points),Custom field (DCIS Actual Decom Completion Date),Custom field (DCIS Refs),Custom field (DEV: Verification procedure),Custom field (DIF Commentary),Custom field (DIF Link),Custom field (DML updates),Custom field (Data Centre),Custom field (Data Resliency Model - UCDP),Custom field (DataCenter),Custom field (Database),Custom field (Database Type (Epic)),Custom field (Date Originated),Custom field (Date Range),Custom field (Date Requested),Custom field (Deactivation Type),Custom field (Decom: Blade - MS),Custom field (Decom: Blade - OEL),Custom field (Decom: Rack - MS),Custom field (Decom: Rack - OEL),Custom field (Decom: VM-MS),Custom field (Decom: VM-OEL),Custom field (Decommission Request Date to DCIS),Custom field (Decommission Required?),Custom field (Defect Categories),Custom field (Defect Detection Phase),Custom field (Defect Owner),Custom field (Defect Priority),Custom field (Defect Resolver),Custom field (Defect Severity),Custom field (Defect Type),Custom field (Deferral Comment),Custom field (Deferral Reason),Custom field (Defined Date),Custom field (Defining Date),Custom field (Delivery Delayed Exception),Custom field (Delivery Description),Custom field (Demand Matrix Score),Custom field (Dependency),Custom field (Deployed Date),Custom field (Deploying Date),Custom field (Deployment Date),Custom field (Deployment Instructions),Custom field (Deployment Signoff),Custom field (Deployment Steps),Custom field (Description of Database Version and Information),Custom field (Description of the Problem by their Customer),Custom field (Description of the Problem by their Support),Custom field (Design Assignee),Custom field (Design Integrity Forum (DIF) Status),Custom field (Design due date),Custom field (Designs complete and finalized),Custom field (Desired Release),Custom field (Detailed Simulation of the Problem),Custom field (Detected In Env),Custom field (Dev Completed),Custom field (Dev Effort),Custom field (Dev Owner (Single User)),Custom field (DevSug Raised By),Custom field (Developed Date),Custom field (Developer),Custom field (Developing Date),Custom field (Development List),Custom field (Development Path),Custom field (Development Team),Custom field (Development Team),Custom field (Development Team),Custom field (Domain/Project Name/Run ID),Custom field (Downstream),Custom field (Draft Approver),Custom field (Draft Author),Custom field (Draft Copy Reviewed?),Custom field (EBS Business Capability),Custom field (EBS Business Unit),Custom field (EMail Address),Custom field (Editorial Assignee),Custom field (Effort Invested),Custom field (Effort Remaining),Custom field (End Date),Custom field (Engagement Type),Custom field (Entity Name),Custom field (Entity Type),Custom field (Environment),Custom field (Environment - PGO),Custom field (Environment Type),Custom field (Epic Colour),Custom field (Epic Escalation),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Phase),Custom field (Epic Status),Custom field (Est. Completed Date),Custom field (Est. Depl. Date),Custom field (Est. ex-Dev Date),Custom field (Est. ex-QA Date),Custom field (Estimate),Custom field (Estimate Saving),Custom field (Estimate comments),Custom field (Estimate reviewed by),Custom field (Estimated Dev Hours),Custom field (Estimated Project Duration),Custom field (Estimated Project End Date),Custom field (Estimation Comment),Custom field (Execution Status),Custom field (Exists in Production),Custom field (Expected Available Date),Custom field (Expected Cause of Problem(If Identified)),Custom field (Expected Result),Custom field (Expected Result(If Identified)),Custom field (Expense),Custom field (External issue ID),Custom field (Factor or Risk to the Customer?),Custom field (Failure Type),Custom field (Feature),Custom field (Feed),Custom field (Feed (Media)),Custom field (Feed Priority),Custom field (Feed Type - UCDP),Custom field (Files),Custom field (Final Copy Approver),Custom field (Financially Feasible),Custom field (First Requested),Custom field (First Response Date),Custom field (Fix Release),Custom field (Format),Custom field (Frame Count),Custom field (Functional Requirements),Custom field (Funded),Custom field (Funding Source),Custom field (Funding Type),Custom field (Global Rank),Custom field (Global Rank (Obsolete)),Custom field (Hard Benefit),Custom field (Hard Dates / Dependencies),Custom field (Highest Environment),Custom field (Hostname),Custom field (How was it simulated),Custom field (I want),Custom field (I/R Date),Custom field (ID Owner),Custom field (ID Resolver),Custom field (IP&Science Priority),Custom field (IRAD),Custom field (IRM),Custom field (Identified via),"Custom field (If ""Other"" Connection was used, describe it)","Custom field (If ""Other"" selected, describe it)",Custom field (Impact),Custom field (Impact (PGO)),Custom field (Impact on Performance Testing),Custom field (Impact on Test Automation),Custom field (Impediment Category),Custom field (Impediment Comment),Custom field (Impediment Reason),Custom field (Impediment Type),Custom field (Impediment Type Field),Custom field (Implementation Kick-off Date),Custom field (Implementation Team),Custom field (In Scope),Custom field (Indicative Estimate),Custom field (Information for Customers),Custom field (Infrastructure Request category),Custom field (Initiating Ref),Custom field (Integration Points),Custom field (Internal Notes),Custom field (Internal Team),Custom field (Internal?),Custom field (IsAutomated),Custom field (Issue Category),Custom field (Issue Origin),Custom field (Issue Owned By),Custom field (Jira Priority),Custom field (Kayako Ticket Number(s)),Custom field (Key Risks),Custom field (Key Words),Custom field (Label for Customers),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages),Custom field (Languages (Other than English)),Custom field (Last Completed Date),Custom field (Last Execution Date),Custom field (Last Groomed),Custom field (Legacy Jira ID),Custom field (Like4Like),Custom field (Linked Issues -),Custom field (Location),Custom field (Location),Custom field (M1: Build Complete),Custom field (M3: Decom),Custom field (MENA Story Points),Custom field (MOSCOW),Custom field (Mandatory Change),Custom field (Master Ticket),Custom field (Materialization Date),Custom field (Measures),Custom field (Migration Object),Custom field (Milestone),Custom field (Mitigation Action),Custom field (Monthly Projection/s),Custom field (Multiple launch dates),Custom field (MyTime Project Description),Custom field (MyTime Project ID),Custom field (Name of BVT Tester),Custom field (Network Validation - UCDP),Custom field (New Biz / Renewal),Custom field (No.Of Open Bugs),Custom field (Number Of Use Cases),Custom field (Number of Defects),Custom field (Number of Documents),Custom field (Number of Servers),Custom field (Number of Users),Custom field (Number of Users),Custom field (OKR Alignment),Custom field (Objective),Custom field (Operating System/Browser),Custom field (Operating System/Browser),Custom field (Operating System/Browser),Custom field (Operating System/Browser),Custom field (Operating System/Browser),Custom field (Operational Changes),Custom field (Operational Efficiencies),Custom field (Operational Information),Custom field (Ops Reviewed),Custom field (Organisation),Custom field (Original story points),Custom field (Other Board),Custom field (Other E-Recruitment Status),Custom field (Out of Scope),Custom field (Overview),Custom field (Owner),Custom field (PGO -  BU Required Date),Custom field (PGO App Support Team),Custom field (PGO BU - F&R),Custom field (PGO BU - GCMS),Custom field (PGO BU - IP&S),Custom field (PGO BU - Legal),Custom field (PGO BU - Other),Custom field (PGO BU - Reuters),Custom field (PGO BU - Tax),Custom field (PGO Budget Line ID),Custom field (PGO Business Criticality),Custom field (PGO Expedite),Custom field (PGO Phase),Custom field (PGO Priority),Custom field (PGO Resiliency),Custom field (POD Type - UCDP),Custom field (PTS Network Engineers - UCDP),Custom field (PaZ Link),Custom field (Parallel Runs),Custom field (Parent Link),Custom field (Patch Profile ID (PPID)),Custom field (Pending On),Custom field (Phase (Media)),Custom field (Phone Number For Delivery Confirmation),Custom field (Plan),Custom field (Planned End),Custom field (Planned End Date),Custom field (Planned I/R),Custom field (Planned Resolution Date),Custom field (Planned Spend ($)),Custom field (Planned Spend Date),Custom field (Planned Start Date),Custom field (Planned Storage TB),Custom field (Planned Story Points),Custom field (Platform),Custom field (Platform),Custom field (Platform),Custom field (Platform Business Value),Custom field (Platform Team),Custom field (Portfolio),Custom field (Post action),Custom field (Pre-Existence),Custom field (Pre-Planning Status),Custom field (PreRequisites),Custom field (Previous Plan Date),Custom field (Primary Client),Custom field (Primary Requester),Custom field (Priority),Custom field (Probability),Custom field (Problem Description),Custom field (Problem Resolution),Custom field (Product),Custom field (Product Owner),Custom field (Product Owner),Custom field (Production Deployment Steps),Custom field (Profile),Custom field (Profiler),Custom field (Program),Custom field (Project Description),Custom field (Project End Date),Custom field (Project Justification),Custom field (Project Name (Media)),Custom field (Project Role - Dev/DB/QA/Prod and Others),Custom field (Project Size),Custom field (Project Status),Custom field (Project Type),Custom field (Project or Request Name),Custom field (Proposed Release),Custom field (Publish information for customers),Custom field (QA Artifacts),Custom field (QA Complete Date),Custom field (QA Completed),Custom field (QA Deployment Date),Custom field (QA Deployment Steps),Custom field (QA Environment),Custom field (QA Environment - RCOM),Custom field (QA Item),Custom field (QA Owner),Custom field (QA Owner (Multi-User)),Custom field (QA Owner (Multi-User)),Custom field (QA Owner (Multi-User)),Custom field (QA Owner - NT),Custom field (QA Started),Custom field (QA Story Points),Custom field (Quality Health),Custom field (RAG),Custom field (RAG Comment),Custom field (RAG Status),Custom field (RAG Status (Media) 2),Custom field (RAID Type),Custom field (RISKARCH Category),Custom field (RISKARCH Owner),Custom field (RM Use Only),Custom field (RMS Product),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Rating),Custom field (Rationale),Custom field (Ready for promotion to),Custom field (Reason For Replacement),Custom field (Reason for Communication),Custom field (Reason for not making release notes),Custom field (Recoverable),Custom field (Region List),Custom field (Regression Test Priority),Custom field (Rejection Reason),Custom field (Release Date),Custom field (Release Fix Version),Custom field (Release Month),Custom field (Release No.),Custom field (Release Priority),Custom field (Release Tag),Custom field (Release Train),Custom field (Release comments),Custom field (Release notes),Custom field (Release set),Custom field (Release tool number),Custom field (Released To Production),Custom field (Report Comments),Custom field (Reported by),Custom field (Reporting Impact),Custom field (Repro Steps),Custom field (Request Status),Custom field (Request Type),Custom field (Request Type OSP),Custom field (Requested By Email),Custom field (Requested By Name),Custom field (Requested By Phone),Custom field (Requester Group),Custom field (Requester.),Custom field (Required By Date),Custom field (Requirement Owner),Custom field (Requirement Spec),Custom field (Requirements),Custom field (Requirements (Media)),Custom field (Requirements Fixed),Custom field (Reschedule Date),Custom field (Resolution Date),Custom field (Retain Pin),Custom field (Revenue),Custom field (Review Count),Custom field (Review Panel Date),Custom field (Review Stage),Custom field (Reviewer),Custom field (Revised Due Date),Custom field (Risk),Custom field (Risk Comment),Custom field (Risk Impact Scale),Custom field (Risk Manager),Custom field (Risk Mitigation Plan),Custom field (Risk Probability),Custom field (Risk Resolution Owner),Custom field (Risk Score),Custom field (Risk Treatment),Custom field (Risk related to Tech Policy?),Custom field (Risk status),Custom field (Role),Custom field (Rollback procedure),Custom field (Root Cause Analysis),Custom field (Root Cause Category),Custom field (Root Cause Category),Custom field (Root Cause Classification),Custom field (Root Cause Description),Custom field (Root Cause List),Custom field (Run sheet: Deployment),Custom field (Run sheet: Post-deployment),Custom field (Run sheet: Pre-deployment),Custom field (SAP project id),Custom field (SCP#),Custom field (SEO Requirements),Custom field (Schema updates),Custom field (Scope and Logical Design),Custom field (Screen Resolution),Custom field (Scrum Teams),Custom field (Scrum Teams (Retired)),Custom field (Security Architect),Custom field (Security Contact),Custom field (Security Level),Custom field (Security References),Custom field (Send Code Word),Custom field (Server Name),Custom field (Server Serial),Custom field (Server Timezone),Custom field (Servers: Blade - MS),Custom field (Servers: Blade - OEL),Custom field (Servers: Cloud - MS),Custom field (Servers: Cloud - OEL),Custom field (Servers: Rack - MS),Custom field (Servers: Rack - OEL),Custom field (Servers: Storage - TB),Custom field (Servers: Storage - Type),Custom field (Servers: VM - MS),Custom field (Servers: VM - OEL),Custom field (Service Disruption),Custom field (Service Disruption Info),Custom field (Service Issue),Custom field (Service Now Change #),Custom field (Severity),Custom field (Shipping Address),Custom field (Shipping Address Type),Custom field (Siebel id),Custom field (Sign off confirmation),Custom field (SingleLoadset),Custom field (So that),Custom field (Social Media Links),Custom field (Solution),Custom field (Solution Design Completed),Custom field (Solution Design Started),Custom field (Source Name),Custom field (Special Client Request),Custom field (Specific Sources),Custom field (Spend ($) Date),Custom field (Sponsor),Custom field (Sponsor (Media) 2),Custom field (Staging Instructions),Custom field (Stakeholder Area),Custom field (Stakeholders),Custom field (Start Date),Custom field (Status - GCMS),Custom field (Status - NT),Custom field (Status Change DateTime),Custom field (Status of Security Test),Custom field (Steps To Reproduce),Custom field (Story Point Actual),Custom field (Story Points),Custom field (Story Points - RN),Custom field (Story Points - Select List),Custom field (Story Points - Select List (Media)),Custom field (Story Readiness Criteria),Custom field (Story Type),Custom field (Story Type - Automation),Custom field (Story Type - Deployment),Custom field (Story Type - Monitoring),Custom field (Story Type - Toc and Training),Custom field (Story Type OSP),Custom field (Story-Type),Custom field (Strategic & Operational Fit Summary ),Custom field (Sub-Task Category),Custom field (Success Criteria),Custom field (Success Metrics),Custom field (Survey Received),Custom field (Survey Sent),Custom field (TDM issue number),Custom field (Target Analysis Completion),Custom field (Target Analysis Start),Custom field (Target Customers),Custom field (Target Date of Implementation Completion),Custom field (Target Dev Complete),Custom field (Target Due Date),Custom field (Target Project Start),Custom field (Target QA Complete),Custom field (Target QA Start),Custom field (Target Solution Design Completion),Custom field (Target Solution Design Start),Custom field (Target UAT Complete),Custom field (Target UAT Start),Custom field (Target delivery date),Custom field (Target end),Custom field (Target start),Custom field (Task End Date),Custom field (Task List),Custom field (Task Start Date),Custom field (Task Type),Custom field (Team),Custom field (Team.),Custom field (Tech Governance Risk),Custom field (Tech Lead Reviewed),Custom field (Technical Complexity),Custom field (Technical Solution),Custom field (Termination Date),Custom field (Test),Custom field (Test Case Type),Custom field (Test Case#),Custom field (Test Date Script Field),Custom field (Test No of Open Bugs),Custom field (Test Outcome),Custom field (Test Owner),Custom field (Test Owner.),Custom field (Test Phase),Custom field (Test Report),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scope),Custom field (Test Scripted Field),Custom field (Test automation status),Custom field (Tester),Custom field (Tester Platform Search),Custom field (Testing Conditions),Custom field (Testing Scope),Custom field (Testing Server/URL),Custom field (The Hub Link),Custom field (Theme),Custom field (Third-Party),Custom field (Ticket Age),Custom field (Ticket Type),Custom field (Tier),Custom field (Time Booking),Custom field (Time Reporting ID),Custom field (Title),Custom field (Token Number),Custom field (Token Type),Custom field (Total Pages Required),Custom field (Tracking),Custom field (Trackman Ref),Custom field (Translate Key),Custom field (Trial End Date),Custom field (Type Customer),Custom field (Type of Defect),Custom field (Type of Test),Custom field (UAT Approach),Custom field (UAT Artifacts),Custom field (UAT Business Testers),Custom field (UAT Completed),Custom field (UAT Started),Custom field (UAT Status),Custom field (UAT Support Contact),Custom field (UBO Severity),Custom field (UMM Category),Custom field (USE CASE - UCDP),Custom field (Unique page URL),Custom field (Upload File(s)),Custom field (Urgency),Custom field (Use Cases),Custom field (User),Custom field (User Phone Number),Custom field (User(s) Name),Custom field (Validated Date),Custom field (Validating Date),Custom field (Vendor),Custom field (Verification procedure),Custom field (Vertical/Pillar),Custom field (Video Links),Custom field (Vulnerability Type),Custom field (Web Consent Verification),Custom field (Weekly Status),Custom field (When You Will Be Done Using The content),Custom field (When You Will Start Using The Content),Custom field (Work Type),Custom field (Work Type),Custom field (Work around),Custom field (World-Check One: Status),Custom field (Year),Custom field (Zephyr Teststep),Custom field (eRecruitment Status),Custom field (gitCommitsReferenced),Custom field (test comp),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment
+Tennessee Ortho_PPT Conversion_Driver Safety_CLMS_10267,TCL-30117,2106241,Epic,Open,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,,Ashok.Jha,Praveen.Gadde,Praveen.Gadde,9/2/2022 16:25,9/2/2022 16:28,3/15/2023 14:39,,,0,,,QA PPT - Functionality / Assessment set up,,Praveen.Gadde,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,ghx-label-3,,,Tennessee Ortho_PPT Conversion_Driver Safety_CLMS_10267,,To Do,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i91zen:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,,,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Praveen.Gadde,,,News,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Green,,,,Green,,,,,,2|i1iibv:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,,,,,,,,,,,,,,,,,,,,,,,,,,
+Market Ready_2022_Translations_Data Privacy: Global_10237,TCL-30050,2105566,Epic,Open,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,,Ashok.Jha,Praveen.Gadde,Praveen.Gadde,9/1/2022 17:14,10/18/2022 4:26,3/15/2023 14:39,,,0,,,"QA - MBT
+
+T:\Z - DESIGN FOLDER\COURSES\Market Ready\2022\Data Privacy_Global Edition_Translations_10237",,Praveen.Gadde,Ashok.Jha,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,ghx-label-14,,,Market Ready_2022_Translations_Data Privacy: Global_10237,,To Do,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32:27.5,,,,,,,,0|i91vuf:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,,,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Praveen.Gadde,,,News,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Green,,,,Green,,,,,,2|i1iev7:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,"13/Oct/2022 10:32 AM;6064930;Hi [~Ashok.Jha] [~Ashok.Jha]
+
+Issues are not fixed/addressed. Request you to look into it.
+
+cc
+
+[~Ashok.Jha]
+
+thanks
+
+ ;;;","18/Oct/2022 04:26 AM;6031505;Hi [~Ashok.Jha],
+
+Kindly verify the fixes and close stories.
+
+Cc [~Ashok.Jha]
+
+Best,
+
+Sheetal;;;",,,,,,,,,,,,,,,,,,,,,,,,
+KHI Bespoke CL,TCL-30043,2105074,Epic,Open,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Major,,,Ashok.Jha,Ashok.Jha,8/31/2022 23:52,11/21/2022 23:44,3/15/2023 14:39,,,0,Bespoke,,,,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,ghx-label-13,,,KHI CL,,To Do,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i91sf3:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,,,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Ashok.Jha,,,News,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Green,,,,Green,,,,,,2|i1ibjv:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mitsubishi_Corporation_2022_Customization,TCL-30000,2103946,Epic,Open,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,,,Praveen.Gadde,Praveen.Gadde,8/30/2022 8:22,11/22/2022 8:42,3/15/2023 14:39,,,0,,,,,Praveen.Gadde,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,ghx-label-7,,,Mitsubishi_Corporation_2022_Customization,,To Do,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i91lan:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,,,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,,,,News,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Green,,,,,,2|i1i4r8:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tennessee Ortho_PPT Conversion_Driver Safety_with Audio_CLMS_10267,TCL-30118,2106242,Story,Closed,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,Done,Ashok.Jha,Praveen.Gadde,Praveen.Gadde,9/2/2022 16:28,10/13/2022 9:05,3/15/2023 14:39,10/13/2022 9:05,,0,,,"QA PPT - Functionality / Audio /Timed slides / Assessment set up with no passing score.
+
+Other notes from Kingman:  
+
+LMS will probably pick up a score still but course should complete just fine upon reaching the last slide.  Please verify. ",,Praveen.Gadde,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,02/Sep/2022 04:28 PM;6016508;Driver Safety - Distracted Driving - English.pptx;https://jira.thomsonreuters.com/secure/attachment/1470113/Driver+Safety+-+Distracted+Driving+-+English.pptx,02/Sep/2022 04:27 PM;6016508;Driver Safety - Distracted Driving - English Quiz1.docx;https://jira.thomsonreuters.com/secure/attachment/1470114/Driver+Safety+-+Distracted+Driving+-+English+Quiz1.docx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,Billable,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,To Do,,,,,,,,,9/22/2022 0:00,,,,,,,,,,,,,,,,,Reuters Only,TBC,,,Yes,Driver_Safety,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,Ashok.Jha,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40:04.1,,,36,,,,,0|i91zf3:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,Wiin10-Edge,Win10-CHR,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Praveen.Gadde,,,News,,,,,,,,,,Bespoke,,,,,9/22/2022 0:00,,,,,,,,Asha.Buddala,,,,,,Zero Defect,Green,,,Green,,,,,,2|i1iicb:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,Not Checked,,,,,,,,,,,,,,,,,,,,,,CAT1,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,FT-GEN,Media-GEN,SBM-EM,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,"22/Sep/2022 03:40 PM;6033537;Hi [~Ashok.Jha] & [~Ashok.Jha]
+
+QA testing completed, course is ready for the client.
+
+Many thanks
+
+Ali ;;;",,,,,,,,,,,,,,,,,,,,,,,,,
+Market Ready_2022_Translations_Data Privacy: Global_Thai_10237,TCL-30067,2105585,Story,Closed,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,Fixed,Ashok.Jha,Praveen.Gadde,Praveen.Gadde,9/1/2022 17:34,11/8/2022 3:31,3/15/2023 14:39,10/18/2022 11:28,,0,,,"QA- MBT - Our Standard testing on: CLMS Win-10 Edge, Chrome, iPad, iPhone, Android
+
+T:\Z - DESIGN FOLDER\COURSES\Market Ready\2022\Data Privacy_Global Edition_Translations_10237
+
+[https://compliancelearning.thomsonreuters.com/learn/course/14857/play/60333:41301/data-privacy-global-edition-thai]
+
+The ID is E-06KKOK",,Ashok.Jha,Ashok.Jha,Praveen.Gadde,Ashok.Jha,Praveen.Gadde,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TCL-30594,TCL-30997,,,,,,,,,,,,,,19/Sep/2022 01:06 PM;6016508;00729_WC_RA_tha_v2_Data Privacy_Global Edition_072022_[Thai]_1.4.docx;https://jira.thomsonreuters.com/secure/attachment/1480239/00729_WC_RA_tha_v2_Data+Privacy_Global+Edition_072022_%5BThai%5D_1.4.docx,27/Sep/2022 04:51 AM;0168475;image-2022-09-27-10-21-40-487.png;https://jira.thomsonreuters.com/secure/attachment/1485824/image-2022-09-27-10-21-40-487.png,27/Sep/2022 04:51 AM;0168475;image-2022-09-27-10-21-55-856.png;https://jira.thomsonreuters.com/secure/attachment/1485825/image-2022-09-27-10-21-55-856.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-02-128.png;https://jira.thomsonreuters.com/secure/attachment/1485826/image-2022-09-27-10-22-02-128.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-06-956.png;https://jira.thomsonreuters.com/secure/attachment/1485827/image-2022-09-27-10-22-06-956.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-11-687.png;https://jira.thomsonreuters.com/secure/attachment/1485828/image-2022-09-27-10-22-11-687.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-18-939.png;https://jira.thomsonreuters.com/secure/attachment/1485829/image-2022-09-27-10-22-18-939.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-23-585.png;https://jira.thomsonreuters.com/secure/attachment/1485830/image-2022-09-27-10-22-23-585.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-28-085.png;https://jira.thomsonreuters.com/secure/attachment/1485831/image-2022-09-27-10-22-28-085.png,27/Sep/2022 04:52 AM;0168475;image-2022-09-27-10-22-32-821.png;https://jira.thomsonreuters.com/secure/attachment/1485832/image-2022-09-27-10-22-32-821.png,07/Oct/2022 07:18 AM;0168475;image-2022-10-07-12-48-10-094.png;https://jira.thomsonreuters.com/secure/attachment/1494400/image-2022-10-07-12-48-10-094.png,19/Sep/2022 01:06 PM;6016508;ResourceBreachesCost_tha.docx;https://jira.thomsonreuters.com/secure/attachment/1480238/ResourceBreachesCost_tha.docx,19/Sep/2022 01:06 PM;6016508;ResourceBreachesCost_tha.pdf;https://jira.thomsonreuters.com/secure/attachment/1480237/ResourceBreachesCost_tha.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,Billable,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,To Do,,,,,,,,,9/23/2022 0:00,,,,,,,,,,,,,,,,,Reuters Only,TBC,,,Yes,Data_Privacy:Global_Edition,Thai,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,Ashok.Jha,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34:04.3,,,159,,,,,0|i91vzr:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,Thai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,Android-11,iPad-iOS14,iPhone-iOS14,Wiin10-Edge,Win10-CHR,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Praveen.Gadde,,,News,,,,,,,,,,MR,,,,,9/27/2022 0:00,,,,,,,,Ashok.Jha,,,,,,Zero Defect,Green,,,Green,,,,,,2|i1if0j:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,Not Checked,,,,,,,,,,,,,,,,,,,,,,MBT,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,"23/Sep/2022 08:34 AM;0168485;hi [~Ashok.Jha]
+
+ 
+
+Kindly see if you can do something on the suggestion raised for Android.
+
+https://jira.thomsonreuters.com/browse/TCL-30594
+
+ 
+
+regards,
+
+[~Ashok.Jha]
+
+ ;;;","23/Sep/2022 06:30 PM;0168475;Hi [~Ashok.Jha]
+
+Please verify the fixed. 
+
+CC [~Ashok.Jha] [~Ashok.Jha] [~Ashok.Jha]
+
+Best
+Navin;;;","26/Sep/2022 10:09 AM;6064930;Hi [~Ashok.Jha]
+
+Issue is verified. Please share random version for next round.
+
+cc
+
+[~Ashok.Jha] [~Ashok.Jha]
+
+Thanks;;;","27/Sep/2022 04:52 AM;0168475;Hi [~Ashok.Jha] 
+
+Please verify the randomized version. All screenshots are attached.
+
+CC [~Ashok.Jha]  [~Ashok.Jha] [~Ashok.Jha]
+
+Thank you
+
+Navin
+
+!image-2022-09-27-10-21-40-487.png!
+
+!image-2022-09-27-10-21-55-856.png!
+
+!image-2022-09-27-10-22-02-128.png!
+
+!image-2022-09-27-10-22-06-956.png!
+
+!image-2022-09-27-10-22-11-687.png!
+
+!image-2022-09-27-10-22-18-939.png!
+
+!image-2022-09-27-10-22-23-585.png!
+
+!image-2022-09-27-10-22-28-085.png!
+
+!image-2022-09-27-10-22-32-821.png!
+
+ ;;;","27/Sep/2022 07:09 PM;0168485;hi [~Ashok.Jha] 
+
+CC: [~Ashok.Jha] [~Ashok.Jha], [~Ashok.Jha]
+
+ 
+
+ *Sign Off on Randomization:*
+The randomization testing for the course has been done using the randomization checklist.
+
+All screenshots as per the randomization checklist are present and validated. The course (draft version) is signed-off for randomization.
+
+ 
+
+*Next step:*
+GD to remove draft, perform steps as per their checklist, and make the course LIVE.
+
+Kindly let QA know when course is rolled to allow QA to validate CLMS additional field values for the rolled-out course.
+
+ 
+
+regards
+
+[~Ashok.Jha];;;","07/Oct/2022 07:02 AM;0168485;Hi [~Ashok.Jha]
+
+Cc: [~Ashok.Jha], [~Ashok.Jha], [~Ashok.Jha]
+
+ 
+
+Kindly proceed with fix for one issue raised.
+
+ 
+
+thanks and regards,
+
+[~Ashok.Jha];;;","07/Oct/2022 07:19 AM;0168475;Hi [~Ashok.Jha]
+
+this is fine. please see highlighted screenshot below 
+
+!image-2022-10-07-12-48-10-094.png|width=656,height=280!
+
+CC [~Ashok.Jha] [~Ashok.Jha] [~Ashok.Jha]
+
+thank you 
+
+Best 
+
+Navin;;;",18/Oct/2022 11:28 AM;6031505;Verified and closed;;;,,,,,,,,,,,,,,,,,,
+Market Ready_2022_Translations_Data Privacy: Global_Spanish_10237,TCL-30066,2105584,Story,Closed,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,Fixed,Ashok.Jha,Praveen.Gadde,Praveen.Gadde,9/1/2022 17:33,10/18/2022 11:27,3/15/2023 14:39,10/18/2022 11:27,,0,,,"QA- MBT - Our Standard testing on: CLMS Win-10 Edge, Chrome, iPad, iPhone, Android
+
+T:\Z - DESIGN FOLDER\COURSES\Market Ready\2022\Data Privacy_Global Edition_Translations_10237
+
+[https://compliancelearning.thomsonreuters.com/learn/course/14721/play/60113:41139/data-privacy-global-edition-spanish|https://urldefense.com/v3/__http:/webdefence.global.blackspider.com/urlwrap/?q=AXicJcpLDoIwFIXh64JoKYIoI02Mr7FxfoWGNilt01uILMG5C3DgntyOqJOTPznfbAOnF8D7CRDMKDJkFAbWoTa1szE4w2rXQbbc7i-kVFpkaVnA-bBjR3t1tzU1f6Bi9FRxPrU3Gm0tjcRgtW1ZVK4jZ4Psowz01fz3TbYPJLnIy0xwb3Dki1SIeZVPs-INRkx80APWY9Iad0WTyEZH7WxCHq0mBQD3B8AH_uhBlA&Z__;!!GFN0sa3rsbfR8OLyAw!fyU3o1Q690E5mV3VonwzivBS3CmQFr1rSoHCePnG4t__uZ_SViAnw8_wCb8BfVOA9iIS2A-60wQhzReaSEHur2dkSQiwnQ$]
+
+The ID is E-03334R",,Ashok.Jha,Ashok.Jha,Praveen.Gadde,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TCL-31000,TCL-30401,TCL-30402,,,,,,,,,,,,,13/Sep/2022 03:50 PM;6016508;00729_WC_RA_spa_v2_Data Privacy_Global Edition_072022_[Spanish]_1.4.docx;https://jira.thomsonreuters.com/secure/attachment/1476269/00729_WC_RA_spa_v2_Data+Privacy_Global+Edition_072022_%5BSpanish%5D_1.4.docx,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-12-454.png;https://jira.thomsonreuters.com/secure/attachment/1481986/image-2022-09-21-13-56-12-454.png,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-27-330.png;https://jira.thomsonreuters.com/secure/attachment/1481987/image-2022-09-21-13-56-27-330.png,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-34-148.png;https://jira.thomsonreuters.com/secure/attachment/1481988/image-2022-09-21-13-56-34-148.png,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-38-990.png;https://jira.thomsonreuters.com/secure/attachment/1481989/image-2022-09-21-13-56-38-990.png,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-43-759.png;https://jira.thomsonreuters.com/secure/attachment/1481990/image-2022-09-21-13-56-43-759.png,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-48-644.png;https://jira.thomsonreuters.com/secure/attachment/1481991/image-2022-09-21-13-56-48-644.png,21/Sep/2022 08:26 AM;0168475;image-2022-09-21-13-56-52-743.png;https://jira.thomsonreuters.com/secure/attachment/1481992/image-2022-09-21-13-56-52-743.png,21/Sep/2022 08:27 AM;0168475;image-2022-09-21-13-57-00-488.png;https://jira.thomsonreuters.com/secure/attachment/1481993/image-2022-09-21-13-57-00-488.png,21/Sep/2022 08:27 AM;0168475;image-2022-09-21-13-57-05-151.png;https://jira.thomsonreuters.com/secure/attachment/1481994/image-2022-09-21-13-57-05-151.png,13/Sep/2022 03:49 PM;6016508;ResourceBreachesCost_spa.docx;https://jira.thomsonreuters.com/secure/attachment/1476268/ResourceBreachesCost_spa.docx,13/Sep/2022 03:49 PM;6016508;ResourceBreachesCost_spa.pdf;https://jira.thomsonreuters.com/secure/attachment/1476267/ResourceBreachesCost_spa.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,Billable,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,To Do,,,,,,,,,9/23/2022 0:00,,,,,,,,,,,,,,,,,Reuters Only,TBC,,,Yes,Data_Privacy:Global_Edition,SPANISH),,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,Ashok.Jha,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39:27.8,,,159,,,,,0|i91vzb:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,Spanish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,Android-11,iPad-iOS14,iPhone-iOS14,Wiin10-Edge,Win10-CHR,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Praveen.Gadde,,,News,,,,,,,,,,MR,,,,,9/27/2022 0:00,,,,,,,,Ashok.Jha,,,,,,Green,Green,,,Green,,,,,,2|i1if03:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,Not Checked,,,,,,,,,,,,,,,,,,,,,,MBT,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,"14/Sep/2022 05:39 PM;0168485;Hi [~Ashok.Jha]
+
+cc: [~Ashok.Jha] , [~Ashok.Jha], [~Ashok.Jha]
+
+ 
+
+The MBT for Spanish has been completed. You may proceed with fixes for the bugs logged.
+
+ 
+
+regards,
+
+[~Ashok.Jha];;;","15/Sep/2022 12:56 PM;0168475;Hi [~Ashok.Jha]
+
+Please verify the fixed
+
+CC [~Ashok.Jha] [~Ashok.Jha] [~Ashok.Jha]
+
+Best
+
+Navin;;;","20/Sep/2022 11:50 AM;0168485;Hi [~Ashok.Jha]
+
+Cc; [~Ashok.Jha], [~Ashok.Jha], [~Ashok.Jha]
+
+ 
+
+*Sign Off on MBT:*
+All issues for MBT have been verified and closed. MBT for non-randomised course is QA signed off.
+The course is now ready for randomization. Randomize the assessment and share screenshots as per the Randomization checklist.
+
+ 
+
+thanks and regards,
+
+[~Ashok.Jha];;;","21/Sep/2022 08:27 AM;0168475;Hi [~Ashok.Jha]
+
+Please verify the randomized version. All screenshots are attached.
+
+CC [~Ashok.Jha]  [~Ashok.Jha] [~Ashok.Jha]
+
+Thank you
+
+Navin
+
+!image-2022-09-21-13-56-12-454.png!
+
+!image-2022-09-21-13-56-27-330.png!
+
+!image-2022-09-21-13-56-34-148.png!
+
+!image-2022-09-21-13-56-38-990.png!
+
+!image-2022-09-21-13-56-43-759.png!
+
+!image-2022-09-21-13-56-48-644.png!
+
+!image-2022-09-21-13-56-52-743.png!
+
+!image-2022-09-21-13-57-00-488.png!
+
+!image-2022-09-21-13-57-05-151.png!
+
+ ;;;","21/Sep/2022 11:09 AM;0168485;Hi [~Ashok.Jha]
+
+Cc: [~Ashok.Jha], [~Ashok.Jha], [~Ashok.Jha]
+
+ 
+
+*Sign Off on Randomization:*
+The randomization testing for the course has been done using the randomization checklist. All screenshots as per the randomization checklist are present and validated. The course (draft version) is signed-off for randomization.
+
+
+*Next step:*
+GD to remove draft, perform steps as per their checklist, and make the course LIVE. Kindly let QA know when course is rolled to allow QA to validate CLMS additional field values for the rolled-out course.
+
+ 
+
+regards,
+
+[~Ashok.Jha];;;","07/Oct/2022 07:56 AM;0168485;Hi [~Ashok.Jha] , [~Ashok.Jha]
+
+Cc [~Ashok.Jha], [~Ashok.Jha], [~Ashok.Jha]
+
+ 
+
+Release date is not mapping with the MR Catalog.
+
+ 
+
+regards,
+
+[~Ashok.Jha];;;",18/Oct/2022 11:27 AM;6031505;CLMS field values verified and closed. Course is signed off by QA;;;,,,,,,,,,,,,,,,,,,,
+KHI Bespoke CL,TCL-30044,2105075,Story,Open,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Major,,Ashok.Jha,Ashok.Jha,Ashok.Jha,9/1/2022 0:00,9/7/2022 10:38,3/15/2023 14:39,,,0,bespoke,,"HI Bhupesh,
+
+I appreciate if you can do functional testing and content mapping for KHI CL, the last KHI course. There are 2 extra requests in the end of this message.
+
+SB:
+
+A:\Kawasaki Heavy Industries Ltd\2022\Bespoke_Introductory_CL_10084\02_Instructional_Design\03_Storyboards
+
+ 
+
+Link to the course:
+
+{color:#000000}[https://d3d6b0f9gseioz.cloudfront.net/dcd/scormapi_v60/launcher_full.html?host=compliancelearning.thomsonreuters.com&id_user=1582185&id_reference=59614&scorm_version=1.2&id_resource=3090245&id_item=40815&idscorm_organization=40554&id_package=40566&launch_type=fullscreen&id_course=14716&player=hydra&autoplay_enabled=1&name=competition-law-kawasaki-group-draft&return_url=compliancelearning.thomsonreuters.com&as_json=1&auth_code=05bc677f53d65f8b4219c0463baa95043c8cca13&use_sw=1&context=lms&debug=1&rtl=false|https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fd3d6b0f9gseioz.cloudfront.net%2Fdcd%2Fscormapi_v60%2Flauncher_full.html%3Fhost%3Dcompliancelearning.thomsonreuters.com%26id_user%3D1582185%26id_reference%3D59614%26scorm_version%3D1.2%26id_resource%3D3090245%26id_item%3D40815%26idscorm_organization%3D40554%26id_package%3D40566%26launch_type%3Dfullscreen%26id_course%3D14716%26player%3Dhydra%26autoplay_enabled%3D1%26name%3Dcompetition-law-kawasaki-group-draft%26return_url%3Dcompliancelearning.thomsonreuters.com%26as_json%3D1%26auth_code%3D05bc677f53d65f8b4219c0463baa95043c8cca13%26use_sw%3D1%26context%3Dlms%26debug%3D1%26rtl%3Dfalse&data=05%7C01%7CNoriko.Tada%40thomsonreuters.com%7C9c909365c95c42901beb08da8b0ec52c%7C62ccb8646a1a4b5d8e1c397dec1a8258%7C0%7C0%7C637975192799063093%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0H92VeghM9bQWvTYnpUw94UXdFr0uWmjoVte8gzePkU%3D&reserved=0]{color}
+
+Would you also check:
+
+①　If the　TOC view of the course is reflected in the last page.
+
+(Snapshot image will be given in email. I couldn't post here)
+
+ 
+
+②The certificate is non-MR course JP certificate.
+
+ 
+
+Best regards,
+
+Noriko
+
+ ",,Ashok.Jha,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TCL-30220,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Be Determined,,,,,,No,Undecided,,,Billable,,Billable Non-Warranty,,,,,,,,,,,,,,,,,,,,,,,,,,,,Platform,,To Do,,,,,,,,,9/5/2022 0:00,,,,,,,,,,,,,,,,,Reuters Only,TBC,,,Yes,CL,Group,Kawasaki,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,Ashok.Jha,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38:58.9,,,,,,,,0|i91sfb:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,,,,,,,,English - US,Japanese,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,Wiin11-Edge,,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Ashok.Jha,,,News,,,,,,,,,,Bespoke_Translations,,,,,9/1/2022 0:00,,,,,,,,Ashok.Jha,,,,,,Green,Green,,,Green,,,,,,2|i1ibk3:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,Not Checked,,,,,,,,,,,,,,,,,,,,,,CAT1,,,Normal,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,FT-GEN,SBM-WW,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,"07/Sep/2022 10:38 AM;0168485;Hi [~Ashok.Jha]
+
+Cc: [~Ashok.Jha]
+
+ 
+
+The functionality testing has been completed. One bug (common across all languages) has been raised. Kindly look into it.
+
+ 
+
+thanks and regards,
+
+[~Ashok.Jha];;;",,,,,,,,,,,,,,,,,,,,,,,,,
+Page 3 >> Glossary,TCL-30136,2106528,Bug,Closed,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,Fixed,Ashok.Jha,Ashok.Jha,Ashok.Jha,9/5/2022 8:43,9/9/2022 6:13,3/15/2023 14:39,9/9/2022 6:13,,0,,,BSA is underlined but not linked to glossary. ,,Ashok.Jha,Ashok.Jha,Praveen.Gadde,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TCL-29983,,,,,,,,,,,,,,,,,,06/Sep/2022 09:50 AM;6117130;image-2022-09-06-10-50-49-882.png;https://jira.thomsonreuters.com/secure/attachment/1471316/image-2022-09-06-10-50-49-882.png,05/Sep/2022 08:43 AM;6031505;P3_Glossaryterm.png;https://jira.thomsonreuters.com/secure/attachment/1470532/P3_Glossaryterm.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ID,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,IE8,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,MODULE_AML:Bank_Secrecy_Act,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,No,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,Ashok.Jha,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51:53.1,,,,,,,,0|i92187:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,Defect,ID,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,iPhone-iOS15-GoLearn,Win10-CHR,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Ashok.Jha,,,News,,,,,,,,,,MR,,,,,,,,,,,,,,,,,,,,Green,,,Green,,,,,,2|i1ik2z:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FP,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,N/A,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,OST -> Edit > Spelling Error or Typo,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,"06/Sep/2022 09:51 AM;6117130;!image-2022-09-06-10-50-49-882.png!
+
+SB have been amended, [~Ashok.Jha] please link the BSA glossary term ;;;",06/Sep/2022 10:11 AM;6063972;the glossary is added;;;,09/Sep/2022 06:13 AM;6031505;Verified and closed;;;,,,,,,,,,,,,,,,,,,,,,,,
+Q2 >> SB Mismatch,TCL-30131,2106479,Bug,Closed,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,Fixed,Ashok.Jha,Ashok.Jha,Ashok.Jha,9/5/2022 7:01,9/9/2022 8:48,3/15/2023 14:39,9/9/2022 8:48,,0,,,Resource link is not hyperlinked.,,Ashok.Jha,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TCL-29983,,,,,,,,,,,,,,,,,,05/Sep/2022 07:00 AM;6031505;Q2_SBM.png;https://jira.thomsonreuters.com/secure/attachment/1470521/Q2_SBM.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,GD,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,IE8,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,MODULE_AML:Bank_Secrecy_Act,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,No,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,Asha.Buddala,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31:20.7,,,,,,,,0|i920t3:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,Defect,GD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,iPhone-iOS15-GoLearn,Win10-CHR,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Ashok.Jha,,,News,,,,,,,,,,MR,,,,,,,,,,,,,,,,,,,,Green,,,Green,,,,,,2|i1ijnv:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FP,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,N/A,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,OST -> Text Mismatch > OST n SB Mismatch for Formatting or instructions to GD,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,06/Sep/2022 10:31 AM;6063972;fixed;;;,09/Sep/2022 08:48 AM;6031505;Verified and closed;;;,,,,,,,,,,,,,,,,,,,,,,,,
+Close Button on question,TCL-30130,2106476,Bug,Closed,TCL,Transactions - Compliance Learning,software,Ashok.Jha,,,Minor,Fixed,Ashok.Jha,Ashok.Jha,Ashok.Jha,9/5/2022 6:25,9/9/2022 10:52,3/15/2023 14:39,9/9/2022 10:52,,0,,,"Since the question is already answered, clicking the close button should ideally close the question popup
+
+At the moment, pop up with the two buttons pops up",,Ashok.Jha,Ashok.Jha,Ashok.Jha,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TCL-29983,,,,,,,,,,,,,,,,,,06/Sep/2022 06:38 AM;0169040;image-2022-09-06-12-08-45-889.png;https://jira.thomsonreuters.com/secure/attachment/1471460/image-2022-09-06-12-08-45-889.png,06/Sep/2022 06:39 AM;0169040;image-2022-09-06-12-09-47-577.png;https://jira.thomsonreuters.com/secure/attachment/1471462/image-2022-09-06-12-09-47-577.png,05/Sep/2022 06:25 AM;6031505;Pass_Revisit_Close.png;https://jira.thomsonreuters.com/secure/attachment/1470510/Pass_Revisit_Close.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,GD,,,,,To Be Determined,,,,,,No,Undecided,,,,,Billable Non-Warranty,,,,IE8,,,,,,,,,,,,,,,,,,,,,,,,Platform,,,,,,,,,,,,,,,,,,,,,,,,,,,,Reuters Only,,,,Yes,MODULE_AML:Bank_Secrecy_Act,,,,,,,,,,,,,,,,,,No,,,Forecast,,,,,,No,,No,,,,,,,,,,NA,,,,Does not apply,,,,,,,,,,,,,,,Asha.Buddala,Not Prioritized,,,,,,,,No,,,,,,,TBC,,,,,,,Undecided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Company,,,,,,TCL-30043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31:59.1,,,,,,,,0|i920qf:,9.22E+18,,,,,,,,,,Medium,,,,,,,,,,,,,,,,Unassigned,,,,,,,,,,,,Defect,GD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N,No,,,,,,None,,,,,,,,,,,,,,,,iPhone-iOS15-GoLearn,Win10-CHR,,,,n/a,,"{Operational Changes or one time operational procedures.
+
+Operational changes are defined as:-
+New applications
+Move of functionality to new modules
+New queues
+New endpoints
+New modules or jobs including changes to CRON jobs
+
+Operational Information or documentation to be detailed:
+Instructions to run/call jobs/endpoints
+New flows and dependancies
+New End points
+Symptoms of failure at front end, logging information etc.
+Methods to recover/restart
+Link to updated architectural docs
+Link to updated operational support docs} ",,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,CLMS,,,,Does not apply,,,Pending,TBC,,,,Low,,,,,Ashok.Jha,,,News,,,,,,,,,,MR,,,,,,,,,,,,,,,,,,,,Green,,,Green,,,,,,2|i1ijl7:,9.22E+18,,,,,,,,Global,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FP,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,TBC,N/A,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,"“I confirm satisfactory checks have been performed in the production environment, and I am happy to sign off the call”",TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Project,,,,,,,,,,,,,,,,,,,,,,,,,,TBC,,,,,No,,,,,,Status Unknown,,,,,,,,,,,,,,,,,,,status unknown,,,TBC,,,,,,,,,,,,,,,,,,,,Media -> Styleguide > Styeguide not followed,,,,,,,,,,Planned,,,,,,,,,,,,,,,,Pending,,,,,,,Draft,2016,,,,test1,05/Sep/2022 07:31 AM;6063972;[~Ashok.Jha] please suggest if we need any actions here. Thank you!;;;,"05/Sep/2022 09:51 AM;0169040;Hi [~Ashok.Jha]
+
+I checked another course ""00732_TR_RA_M5_eng_v1"" and functionality is working fine in that, could you please compare the action  with course where it is working fine. Ideally this pop-up should not appear, if user already attempted the quizzes. 
+
+Thanks [~Ashok.Jha] for your time and explaining the issue.
+
+ ;;;","06/Sep/2022 06:40 AM;0169040;Hi [~Ashok.Jha]
+
+I have fixed the issue, i need to add variable as follows:
+
+!image-2022-09-06-12-08-45-889.png!
+
+ 
+
+Also, fixed all variable names for all quizzes:
+
+!image-2022-09-06-12-09-47-577.png|width=788,height=899!
+
+Shared source on teams.
+
+CC [~Ashok.Jha] [~Ashok.Jha];;;",09/Sep/2022 10:52 AM;6031505;Verified and closed;;;,,,,,,,,,,,,,,,,,,,,,,
