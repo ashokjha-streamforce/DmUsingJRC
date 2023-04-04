@@ -13,15 +13,13 @@
  */
 package sfs.dm.jira.jiramigration;
 
-import java.util.HashMap;
-import java.util.Properties;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-
-import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Properties;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
@@ -32,11 +30,11 @@ import org.slf4j.LoggerFactory;
 
 import com.atlassian.jira.rest.client.api.JiraRestClient;
 import com.atlassian.jira.rest.client.api.RestClientException;
-import com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClientFactory;
 import com.atlassian.jira.rest.client.api.domain.Issue;
 import com.atlassian.jira.rest.client.api.domain.input.FieldInput;
 import com.atlassian.jira.rest.client.api.domain.input.IssueInput;
 import com.atlassian.jira.rest.client.api.domain.input.IssueInputBuilder;
+import com.atlassian.jira.rest.client.internal.async.AsynchronousJiraRestClientFactory;
 
 //import io.atlassian.util.concurrent.Promise;
 
@@ -46,96 +44,99 @@ import com.atlassian.jira.rest.client.api.domain.input.IssueInputBuilder;
  * @author ASHOK KR JHA (ashok.jha@streamforcesolutions.com)
  */
 public class UpdateJiraTask {
-	final static Logger logger = LoggerFactory.getLogger(UpdateJiraTask.class);
-	private static HashMap<String, String> taskMap = new HashMap<String, String>();
-	private static Properties appProps = new Properties();
+    final static Logger logger = LoggerFactory.getLogger(UpdateJiraTask.class);
+    private static HashMap<String, String> taskMap = new HashMap<String, String>();
+    private static Properties appProps = new Properties();
 
-	public static void main(String[] args) {
-		try {
-			appProps.load(UpdateJiraTask.class.getClassLoader().getResourceAsStream("jiradatamig.properties"));
-			UpdateJiraTask.testConnectJira();
-			UpdateJiraTask.processCSV();
-			logger.debug("Task to Update: " + taskMap);
-			System.out.println(taskMap);
-			UpdateJiraTask.updateEpicLink();
-		} catch (IOException e) {
-			logger.error("", e);
-		}
+    public static void main(String[] args) {
+        try {
+            appProps.load(UpdateJiraTask.class.getClassLoader().getResourceAsStream("jiradatamig.properties"));
+            UpdateJiraTask.testConnectJira();
+            UpdateJiraTask.processCSV();
+            logger.debug("Task to Update: " + taskMap);
+            UpdateJiraTask.updateEpicLink();
+            System.out.println("Update to JIRA Task is successful");
+        } catch (IOException e) {
+            logger.error("", e);
+        }
 
-	}
+    }
 
-	private static void updateEpicLink() {
-		try {
-			final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
-					new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
-					appProps.getProperty("KEY"));
-			try {
-				taskMap.forEach((issueKey, epicVal) -> {
-					IssueInputBuilder builder = new IssueInputBuilder();
-					builder.setFieldInput(new FieldInput(appProps.getProperty("EPIC_LINK"), epicVal));
-					IssueInput epic = builder.build();
-					try {
-						restClient.getIssueClient().updateIssue(issueKey, epic).claim();
-					} catch (RestClientException rex) {
-						String err = String.format("Epic Link %s => %s failed : ", issueKey, epicVal);
-						System.out.println(err);
-						logger.error(err, rex);
-					}
-				});
+    private static void updateEpicLink() {
+        try {
+            final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
+                    new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
+                    appProps.getProperty("KEY"));
+            try {
+                taskMap.forEach((issueKey, epicVal) -> {
+                    IssueInputBuilder builder = new IssueInputBuilder();
+                    builder.setFieldInput(new FieldInput(appProps.getProperty("EPIC_LINK"), epicVal));
+                    IssueInput epic = builder.build();
+                    try {
+                        restClient.getIssueClient().updateIssue(issueKey, epic).claim();
+                    } catch (RestClientException rex) {
+                        String err = String.format("Epic Link %s => %s failed : ", issueKey, epicVal);
+                        System.out.println(err);
+                        logger.error(err, rex);
+                    }
+                });
 
-			} finally {
-				try {
-					restClient.close();
-				} catch (IOException ioe) {
-					logger.error("IO Exp  ", ioe);
-				}
-			}
-		} catch (URISyntaxException urle) {
-			logger.error("URL Syntax ", urle);
-		}
+            } finally {
+                try {
+                    restClient.close();
+                } catch (IOException ioe) {
+                    logger.error("IO Exp  ", ioe);
+                }
+            }
+        } catch (URISyntaxException urle) {
+            logger.error("URL Syntax ", urle);
+        }
 
-	}
+    }
 
-	public static void processCSV() {
-		String csvFileName = ".\\Data\\TCL JIRA TR Combined Data Feb 2023 - 3_23_2023.csv";
-		try {
-			@SuppressWarnings("deprecation")
-			CSVFormat csvFormat = CSVFormat.DEFAULT.withFirstRecordAsHeader().withIgnoreHeaderCase();
-			Path path = Paths.get(appProps.getProperty("DATAFILE"));
-			CSVParser csvParser = CSVParser.parse(path, StandardCharsets.UTF_8, csvFormat);
-			for (CSVRecord csvRecord : csvParser) {
-				String issueKey = csvRecord.get("Issue key");
-				String epicLink = csvRecord.get("Custom field (Epic Link)");
-				if (StringUtils.isNotBlank(epicLink)) {
-					taskMap.put(issueKey.trim(), epicLink.trim());
-				}
-			}
-			csvParser.close();
-		} catch (IOException ioe) {
-			logger.error(csvFileName + " IOExp ", ioe);
-		}
+    public static void processCSV() {
+        try {
+            // CSVFormat csvFormat =
+            // CSVFormat.DEFAULT.builder().setHeader().setSkipHeaderRecord(true).build();
+            // Path path = Paths.get(appProps.getProperty("DATAFILE"));
+            CSVParser csvParser = CSVParser.parse(Paths.get(appProps.getProperty("DATAFILE")), StandardCharsets.UTF_8,
+                    CSVFormat.DEFAULT.builder().setHeader().setSkipHeaderRecord(true).build());
+            for (CSVRecord csvRecord : csvParser) {
+                String issueKey = csvRecord.get("Issue key");
+                String epicLink = csvRecord.get("Custom field (Epic Link)");
+                if (StringUtils.isNotBlank(epicLink)) {
+                    taskMap.put(issueKey.trim(), epicLink.trim());
+                }
+            }
+            csvParser.close();
+        } catch (IOException ioe) {
+            logger.error(appProps.getProperty("DATAFILE") + " IOExp ", ioe);
+        }
 
-	}
+    }
 
-	private static void testConnectJira() {
-		try {
-			final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
-					new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
-					appProps.getProperty("KEY"));
-			try {
-				Issue issueObj = restClient.getIssueClient().getIssue("TCL-30000").claim();
-				System.out.println("Issue " + issueObj);
-			} finally {
-				try {
-					restClient.close();
-				} catch (IOException ioe) {
-					logger.error("IO  ", ioe);
-				}
-			}
-		} catch (URISyntaxException urle) {
-			logger.error("URL Syntax  ", urle);
-		}
+    /**
+     * Test Connection
+     */
+    private static void testConnectJira() {
+        try {
+            final JiraRestClient restClient = new AsynchronousJiraRestClientFactory().createWithBasicHttpAuthentication(
+                    new URI(appProps.getProperty("JIRA_SERVER")), appProps.getProperty("USER"),
+                    appProps.getProperty("KEY"));
+            try {
+                Issue issueObj = restClient.getIssueClient().getIssue("TCL-30000").claim();
+                System.out.println("Issue " + issueObj);
+            } finally {
+                try {
+                    restClient.close();
+                } catch (IOException ioe) {
+                    logger.error("IO  ", ioe);
+                }
+            }
+        } catch (URISyntaxException urle) {
+            logger.error("URL Syntax  ", urle);
+        }
 
-	}
+    }
 
 }
