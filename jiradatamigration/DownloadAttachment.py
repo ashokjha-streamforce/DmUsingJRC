@@ -4,14 +4,14 @@ import os
 
 # LRN SERVER
 username = 'ashok.jha'
-password = 'Mr1ty0muksh1yamamr1tat'
+password = 'PWD'
 the_url = "https://enable.lrn.com/"
 jira = JIRA({"server": the_url}, basic_auth=(username, password))
 
 # SFS
 # username = 'ashok.jha@streamforcesolutions.com'
 # the_url = 'https://streamforcesolutions.atlassian.net/'
-# token = "ATATT3xFfGF061XUC8wbtHY6loWcaUZoqt3pebl_fLzfMY47fOkaIlqeNiNqYl5DJKXNzu3MA2hqonpP5oAGJeVpHDTH6UiySoHmx0CJaVxSVdElwn4B35YZdFrPYhn4FThrmmiRnCaN115VQMqWOXsUwzvSHpOn0Z9F7VBpPh2Ump8uypbKtgM=2577F884"
+# token = "<TOKEN>"
 # jira = JIRA({"server": the_url}, basic_auth=(username, token))
 
 projectList = ['TCL', 'DTM']
